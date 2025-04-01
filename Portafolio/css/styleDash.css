@@ -1,0 +1,72 @@
+/* Estilos generales */
+body {
+    background: linear-gradient(135deg, #d9a7c7, #fffcdc);
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    height: 100vh;
+    background: white;
+    border-right: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.sidebar h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    color: #333;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.nav-link:hover {
+    background: #f0f0f0;
+}
+
+.nav-link.text-danger {
+    color: red;
+}
+
+/* Contenedor principal */
+main {
+    background: #f8f9fa;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Banner */
+.banner {
+    background: #0d1b2a;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Eventos */
+.card {
+    border: none;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Barra de progreso */
+.progress {
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    font-size: 0.9rem;
+    text-align: center;
+    line-height: 20px;
+}

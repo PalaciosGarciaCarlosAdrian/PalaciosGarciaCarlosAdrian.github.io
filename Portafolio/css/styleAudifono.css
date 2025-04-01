@@ -1,0 +1,126 @@
+/* Estilos generales */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #e0e6eb;
+    font-family: Arial, sans-serif;
+}
+
+/* Tarjeta */
+.card {
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+    width: 320px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Imagen */
+.image-container img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+/* Contenido */
+h2 {
+    font-size: 22px;
+    margin: 15px 0 10px;
+}
+
+p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Fila de opciones: Color y Configuración */
+.options-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+/* Fila de compra: Precio y Botón */
+.purchase-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+/* Precio */
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Menús desplegables */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background: #f0f0f0;
+    color: #333;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.dropbtn i {
+    font-size: 12px;
+}
+
+.dropbtn:hover {
+    background: #e0e0e0;
+}
+
+/* Contenido del menú desplegable */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 15px;
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Mostrar el menú al pasar el cursor */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Botón "Add to cart" */
+.green-btn {
+    background: #4CAF50;
+    color: white;
+}
+
+.green-btn:hover {
+    background: #45a049;
+}

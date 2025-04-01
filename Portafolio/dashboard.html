@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-r from-purple-200 to-blue-300 min-h-screen flex">
+    <!-- Sidebar -->
+    <aside class="w-64 bg-white p-6 shadow-md flex flex-col">
+        <h2 class="text-2xl font-bold text-center mb-6">edu</h2>
+        <nav>
+            <ul class="space-y-4">
+                <li><a href="#" class="flex items-center text-gray-700 hover:text-blue-500"><span class="mr-3">📅</span> Schedule</a></li>
+                <li><a href="#" class="flex items-center text-gray-700 hover:text-blue-500"><span class="mr-3">📊</span> Progress</a></li>
+                <li><a href="#" class="flex items-center text-gray-700 hover:text-blue-500"><span class="mr-3">✉️</span> Messages</a></li>
+                <li><a href="#" class="flex items-center text-gray-700 hover:text-blue-500"><span class="mr-3">⚙️</span> Settings</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="mt-auto text-red-500 hover:text-red-700">🚪 Log out</a>
+    </aside>
+    
+    <!-- Main Content -->
+    <main class="flex-1 p-6">
+        <div class="flex justify-between items-center">
+            <input type="text" class="border p-2 w-1/2 rounded-md" placeholder="Search">
+            <div class="flex items-center space-x-3">
+                <span>🔔</span>
+                <span>Kate G.</span>
+            </div>
+        </div>
+        
+        <!-- Banner -->
+        <div class="bg-blue-900 text-white p-6 mt-6 rounded-lg">
+            <h3 class="text-2xl font-bold">Effective education!</h3>
+            <p>Learning is easy and effective with us...</p>
+        </div>
+        
+        <!-- Events Section -->
+        <div class="grid grid-cols-3 gap-4 mt-6">
+            <div class="bg-white p-4 rounded-lg shadow-md text-center">
+                <h5 class="text-xl font-bold">26.02</h5>
+                <p class="text-gray-600">UX/UI Workshop</p>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-md text-center">
+                <h5 class="text-xl font-bold">02.03</h5>
+                <p class="text-gray-600">English Lecture</p>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-md text-center">
+                <h5 class="text-xl font-bold">07.03</h5>
+                <p class="text-gray-600">Business Lecture</p>
+            </div>
+        </div>
+        
+        <!-- Progress Section -->
+        <div class="mt-6">
+            <div class="bg-gray-300 rounded-full h-4 w-full overflow-hidden">
+                <div class="bg-blue-500 h-full w-1/3 text-center text-white text-sm">Computer Science 37%</div>
+            </div>
+            <div class="bg-gray-300 rounded-full h-4 w-full overflow-hidden mt-2">
+                <div class="bg-green-500 h-full w-4/5 text-center text-white text-sm">Science 83%</div>
+            </div>
+            <div class="bg-gray-300 rounded-full h-4 w-full overflow-hidden mt-2">
+                <div class="bg-yellow-500 h-full w-1/2 text-center text-white text-sm">Business 51%</div>
+            </div>
+        </div>
+    </main>
+    
+    <!-- Right Sidebar -->
+    <aside class="w-64 bg-white p-6 shadow-md">
+        <h5 class="text-lg font-bold">Your Courses</h5>
+        <ul class="space-y-2 mt-4">
+            <li class="flex justify-between bg-gray-100 p-3 rounded-lg">
+                <span>🎨 Art</span>
+                <span>35 hours</span>
+            </li>
+            <li class="flex justify-between bg-gray-100 p-3 rounded-lg">
+                <span>💼 Business</span>
+                <span>40 hours</span>
+            </li>
+            <li class="flex justify-between bg-gray-100 p-3 rounded-lg">
+                <span>🧪 Science</span>
+                <span>25 hours</span>
+            </li>
+            <li class="flex justify-between bg-gray-100 p-3 rounded-lg">
+                <span>🧮 Mathematics</span>
+                <span>15 hours</span>
+            </li>
+        </ul>
+        <div class="bg-blue-500 text-white text-center p-4 mt-6 rounded-lg">
+            <h6 class="text-lg font-bold">Upgrade to Premium</h6>
+            <p>Get access to more courses!</p>
+        </div>
+        <div>
+            <a href="layout.html" class="mt-4 inline-block bg-black text-white px-4 py-2 rounded hover:bg-gray-800">Layout</a>
+            <a href="../index.html" class="mt-4 inline-block bg-black text-white px-4 py-2 rounded hover:bg-gray-800">menu</a>
+        </div>
+    </aside>
+</body>
+</html>
